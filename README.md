@@ -1,4 +1,4 @@
-# [Madhumitha's Portfolio](https://github.com/madhumithapatimedi-ana/Madhumitha-s-Portfolio-)
+# Madhumitha's Portfolio
 # [Project 1: British Airway Review](https://github.com/madhumithapatimedi-ana/british-airway-review--tableau-proj)
 
 * **Project Goal:** Transform raw British Airways customer reviews into an **interactive Tableau dashboard** to identify service gaps and satisfaction drivers.
