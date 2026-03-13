@@ -1,49 +1,41 @@
 
 # [Project 1: British Airway Review](https://github.com/madhumithapatimedi-ana/british-airway-review--tableau-proj)
 
-* **Project Goal:** Transform raw British Airways customer reviews into an **interactive Tableau dashboard** to identify service gaps and satisfaction drivers.
-* **Core Metrics:** Analyzed **Overall Ratings** alongside specific categories like Cabin Staff, Food & Beverage, Seat Comfort, and Entertainment.
-* **Key Comparisons:** Evaluated performance differences across **Traveler Types** (e.g., Business vs. Solo) and **Seat Classes** (Economy vs. First Class).
-* **Technical Features:** Utilized **Calculated Fields, Interactive Filters, and KPI Summaries** to create a clean, user-friendly data story.
-* **Primary Insights:** Uncovered specific service areas with low ratings and identified patterns in customer **recommendation status**.
-* **Professional Outcomes:** Demonstrated expertise in **data cleaning**, visual storytelling, and performance-based analytics.
+Stack: Tableau | Data Visualization | Calculated Fields
 
+The Goal: Pinpointed the specific service "pain points" leading to negative customer recommendations.
+
+The Action: Built an interactive dashboard visualizing sentiment across travel classes, demographics, and service categories (Seat, Staff, Food).
+
+The Result: Isolated "Seat Comfort" as the primary driver of negative NPS, showing that physical hardware flaws outweigh high-quality staff service in passenger retention.
 
 # [Project 2: Coffee Shop Sales Dashboard](https://github.com/madhumithapatimedi-ana/excel-sales-dashboard-project)
 
-* **Core Objective:** To transform raw sales data into an interactive decision-making tool that tracks **total revenue, best-selling products, and category-wise performance**.
-* **Technical Stack:** Leveraged **Power Query** for data cleaning and advanced formulas like **XLOOKUP** and **INDEX + MATCH** for dynamic data retrieval.
-* **Key Features:** * **Automated Summaries:** Real-time tracking of Top 5 customers and high-margin products.
-* **Interactive UI:** Integrated **Slicers and Timeline filters** for on-the-fly analysis of daily and monthly trends.
-* **Strategic Insights:** * Identified **peak morning sales** windows.
-* Pinpointed the **top 3 products** driving the majority of total revenue.
-* Mapped profit margin variances across different beverage categories.
-* **Professional Growth:** Demonstrated mastery in **data structuring, conditional formatting, and business reporting** techniques.
+Stack: Excel | XLOOKUP | Pivot Tables | Power Query
 
+The Goal: Identified revenue drivers and operational bottlenecks for a retail coffee business.
+
+The Action: Cleaned and modeled 1,000+ transactions using INDEX/MATCH and XLOOKUP to automate data retrieval.
+
+The Result: Discovered that 3 core products drive 80% of revenue and identified peak morning "velocity" windows to optimize staffing levels.
 
 # [Project 3: Movie Revenue Analysis](https://github.com/madhumithapatimedi-ana/movie-analysis-python)
 
-* **Core Objective:** To analyze the relationship between **budgets, ratings, and gross revenue** using a comprehensive movies dataset.
-* **Technical Stack:** Leveraged **Python** libraries including **Pandas** and **NumPy** for data manipulation, and **Matplotlib/Seaborn** for statistical visualization.
-* **Data Integrity:** Executed a rigorous cleaning pipeline involving **type conversion**, handling missing values, and outlier detection to ensure analytical accuracy.
-* **Statistical Analysis:** * Performed **Pearson Correlation** to quantify the strength of relationships between variables.
-* Analyzed **Year-wise trends** to identify historical peaks in the film industry.
-* **Key Findings:** * Confirmed a **strong positive correlation** between movie budgets and gross earnings.
-* Discovered that while ratings matter, they hold only a **moderate correlation** to financial performance compared to budget.
-* **Professional Outcomes:** Demonstrated proficiency in **statistical computing**, data wrangling, and uncovering actionable insights from unstructured datasets.
+Stack: Python | Pandas | Seaborn | Matplotlib
+
+The Goal: Quantified the relationship between movie budgets, user ratings, and gross box office revenue.
+
+The Action: Performed Exploratory Data Analysis (EDA) and Pearson Correlation tests on a dataset of 7,000+ films.
+
+The Result: Statistically proved that budget is a stronger predictor of revenue than critical acclaim, providing a data-driven blueprint for studio ROI.
 
 
 # [Project 4: COVID-19 Global Analysis Dashboard](https://github.com/madhumithapatimedi-ana/covid-19-global-data-exploration)
 
-* **Core Objective:** To quantify the relationship between infection rates, mortality, and the "Inversion Point"—the specific moment vaccination scales began to suppress death trends.
-* **Data Engineering (SQL):** * Leveraged **T-SQL** for complex ETL (Extract, Transform, Load) processes.
-* Utilized **Window Functions** (`PARTITION BY`) to calculate rolling vaccination totals.
-* Implemented **CTEs** and **Temp Tables** to manage multi-layered transformations and population-based percentage calculations.
-* **Data Visualization (Power BI):**
-* Developed dynamic measures using **DAX** to calculate real-time Mortality Rates and Vaccination Penetration.
-* Created a high-performance data model using **SQL Views** to optimize dashboard responsiveness.
-* **Key Features:**
-* **Global KPI Scorecard:** Real-time tracking of total cases, deaths, and fatality percentages.
-* **Geospatial Analysis:** Interactive bubble maps highlighting infection hotspots relative to population density.
-* **Correlation Trends:** Dual-axis charts visualizing the inverse relationship between daily vaccinations and death counts.
-* **Professional Outcomes:** Demonstrated mastery in **relational database management**, advanced SQL logic, and **bi-variate trend analysis** for public health data.
+Stack: SQL Server | T-SQL | Power BI | DAX
+
+The Goal: Tracked the global "Inversion Point" where vaccination scales began to decouple infection rates from mortality.
+
+The Action: Engineered a SQL backend using Window Functions and CTEs to calculate rolling totals, paired with a dynamic Power BI front-end.
+
+The Result: Delivered a real-time reporting tool that visualizes vaccination efficacy and regional mortality hotspots across 200+ countries.
